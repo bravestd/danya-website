@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,6 +8,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Alef", sans-serif;
 }
 
 html,
@@ -22,6 +25,8 @@ body {
   background-size: 100% auto;
   background-position: center top;
   background-attachment: fixed;
+
+  overflow-x: hidden;
 }
 
 a {
@@ -42,7 +47,8 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-p {
+p,
+span {
   background: linear-gradient(
     90deg,
     rgba(217, 217, 217, 0.25),

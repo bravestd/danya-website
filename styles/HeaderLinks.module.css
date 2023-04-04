@@ -1,6 +1,14 @@
 .links {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
   position: fixed;
-  top: 3rem;
+  padding: 1rem 0;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  min-width: 100wh;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.05);
 }
