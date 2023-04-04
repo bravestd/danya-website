@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 4rem;
+}
+
+.header h1 {
+  font-size: 4.375rem;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.link img {
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+.link span {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 0.25),
+    rgba(217, 217, 217, 0.5),
+    rgba(217, 217, 217, 0.25)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
