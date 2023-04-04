@@ -12,16 +12,16 @@ import Link from "next/link";
 const HeaderLinks: React.FC = () => {
   return (
     <div className={styles.links}>
-      <Link target="_blank" href="https://www.bravestd.com/">
+      <Link target="_blank" href="https://www.behance.net/skv1k">
         <Image src={behanceIcon} alt="behance" />
       </Link>
-      <Link target="_blank" href="https://www.bravestd.com/">
+      <Link target="_blank" href="https://t.me/Skv1k0">
         <Image src={telegramIcon} alt="telegram" />
       </Link>
-      <Link target="_blank" href="https://www.bravestd.com/">
+      <Link target="_blank" href="https://vk.com/murderous_wine0_0">
         <Image src={vkIcon} alt="vk" />
       </Link>
-      <Link target="_blank" href="https://www.bravestd.com/">
+      <Link target="_blank" href="https://discord.gg/ykacT4xj">
         <Image src={discordIcon} alt="discord" />
       </Link>
     </div>
